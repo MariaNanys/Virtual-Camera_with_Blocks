@@ -1,0 +1,26 @@
+.controls {
+  position: absolute;
+  top: 10px;
+  left: calc(50% - 160px);
+  padding: 10px;
+  border: 2px solid #5a5a5a;
+  color: #333;
+  font-family: monospace;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.canvas-container {
+  width: 600px;
+  height: 600px;
+  margin: 150px auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+canvas {
+  display: block;
+}
