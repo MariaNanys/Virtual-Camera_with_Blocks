@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "virtual-camera": {
+    "virtual-camera_with_blocks": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -61,10 +61,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "virtual-camera:build:production"
+              "buildTarget": "virtual-camera_with_blocks:build:production"
             },
             "development": {
-              "buildTarget": "virtual-camera:build:development"
+              "buildTarget": "vvirtual-camera_with_blocks:build:development"
             }
           },
           "defaultConfiguration": "development"
