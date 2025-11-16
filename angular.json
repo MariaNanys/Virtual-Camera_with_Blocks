@@ -64,7 +64,7 @@
               "buildTarget": "virtual-camera_with_blocks:build:production"
             },
             "development": {
-              "buildTarget": "vvirtual-camera_with_blocks:build:development"
+              "buildTarget": "virtual-camera_with_blocks:build:development"
             }
           },
           "defaultConfiguration": "development"
